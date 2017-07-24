@@ -7,7 +7,7 @@ var HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
 
 module.exports = {
   entry: [
-    './app/my.jsx' //App.js是主入口jsx
+    './app/index.jsx' //App.js是主入口jsx
   ],
   output: { //指定输出目录和输出文件名index_bundle.js
     path: __dirname + '/dist',
